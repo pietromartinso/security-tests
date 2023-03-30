@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Solidity Vulnerability Scan Example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+....
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### Dependencies:
+
+- python3
+- pip3
+- pip3 install solc-select
+  - ``solc-select use 0.8.7``
+- pip3 install slither-analyzer
